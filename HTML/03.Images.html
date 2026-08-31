@@ -1,0 +1,189 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Image Tags - Assignment</title>
+</head>
+
+<body>
+
+    <h1>HTML Image Tag Assignment</h1>
+
+    <!-- ================================================= -->
+    <!-- 1. Image in the SAME folder as HTML file -->
+    <!-- ================================================= -->
+
+    <h2>1. Same Folder Image</h2>
+
+    <img src="flower.jpg" alt="Beautiful flower">
+
+
+    <!-- ================================================= -->
+    <!-- 2. Image inside images folder -->
+    <!-- ================================================= -->
+
+    <h2>2. Image Inside Images Folder</h2>
+
+    <img src="logo.png" alt="Website logo" width="200">
+
+
+    <!-- ================================================= -->
+    <!-- 3. Image inside assets/images folder -->
+    <!-- ================================================= -->
+
+    <h2>3. Image Inside assets/images Folder</h2>
+
+    <img src="assets/images/banner.jpg" alt="Website banner">
+
+
+    <!-- ================================================= -->
+    <!-- 4. HTML file is inside pages folder -->
+    <!-- Image is in root folder -->
+    <!-- ../ means go one folder back -->
+    <!-- ================================================= -->
+
+    <h2>4. Image From Root Folder</h2>
+
+    <img src="../photo.jpg" alt="Photo">
+
+
+    <!-- ================================================= -->
+    <!-- 5. Image with src, alt, width and height -->
+    <!-- ================================================= -->
+
+    <h2>5. Image With Width and Height</h2>
+
+    <img
+        src="images/nature.jpg"
+        alt="Beautiful nature view"
+        width="300"
+        height="200"
+    >
+
+
+    <!-- ================================================= -->
+    <!-- 6. Image with title attribute -->
+    <!-- ================================================= -->
+
+    <h2>6. Image With Title</h2>
+
+    <img
+        src="image.jpg"
+        alt="Sample image"
+        title="Click to view full size"
+    >
+
+
+    <!-- ================================================= -->
+    <!-- 7. Lazy Loading -->
+    <!-- Image loads when it is near the viewport -->
+    <!-- ================================================= -->
+
+    <h2>7. Lazy Loading Image</h2>
+
+    <img
+        src="images/nature.jpg"
+        alt="Beautiful nature"
+        loading="lazy"
+    >
+
+
+    <!-- ================================================= -->
+    <!-- 8. Eager Loading -->
+    <!-- Image loads immediately -->
+    <!-- ================================================= -->
+
+    <h2>8. Eager Loading Hero Image</h2>
+
+    <img
+        src="hero.jpg"
+        alt="Hero image"
+        loading="eager"
+    >
+
+
+    <!-- ================================================= -->
+    <!-- 9. Loading Auto -->
+    <!-- Browser decides how to load the image -->
+    <!-- ================================================= -->
+
+    <h2>9. Auto Loading</h2>
+
+    <img
+        src="image.jpg"
+        alt="Sample image"
+        loading="auto"
+    >
+
+    <p>
+        The browser automatically decides whether to load the image eagerly
+        or lazily.
+    </p>
+
+
+    <!-- ================================================= -->
+    <!-- 10. Responsive Image using srcset -->
+    <!-- ================================================= -->
+
+    <h2>10. Responsive Image</h2>
+
+    <img
+        src="medium.jpg"
+        srcset="
+            small.jpg 400w,
+            medium.jpg 800w,
+            large.jpg 1200w
+        "
+        alt="Responsive image"
+    >
+
+
+    <!-- ================================================= -->
+    <!-- 11. Complete Image Tag -->
+    <!-- ================================================= -->
+
+    <h2>11. Complete Image Tag</h2>
+
+    <img
+        src="images/nature.jpg"
+        alt="Beautiful nature view"
+        width="300"
+        height="200"
+        loading="lazy"
+        title="Click to view full size"
+        srcset="
+            images/nature-small.jpg 400w,
+            images/nature-large.jpg 800w
+        "
+    >
+
+
+    <!-- ================================================= -->
+    <!-- 12. Two Images Side by Side -->
+    <!-- First = eager -->
+    <!-- Second = lazy -->
+    <!-- ================================================= -->
+
+    <h2>12. Two Images Side by Side</h2>
+
+    <div>
+        <img
+            src="assets/logo.png"
+            alt="Website logo"
+            width="250"
+            loading="eager"
+        >
+
+        <img
+            src="images/products/shoe.jpg"
+            alt="Product shoe"
+            width="250"
+            loading="lazy"
+        >
+    </div>
+
+</body>
+</html>
+```
