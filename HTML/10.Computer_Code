@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Code Elements - All Questions</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 30px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        section {
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        code {
+            font-family: monospace;
+            background-color: #f2f2f2;
+            padding: 3px 6px;
+            border-radius: 4px;
+        }
+
+        pre {
+            background-color: #1e1e1e;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: monospace;
+            overflow-x: auto;
+        }
+
+        kbd {
+            background-color: #f2f2f2;
+            border: 1px solid #999;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-family: monospace;
+            box-shadow: 1px 1px 2px #aaa;
+        }
+
+        samp {
+            font-family: monospace;
+            background-color: #eee;
+            padding: 3px 6px;
+            border-radius: 4px;
+        }
+
+        var {
+            font-family: serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>HTML Code Elements - All Questions</h1>
+
+
+    <!-- ==================== QUESTION 1 ==================== -->
+    <section>
+        <h2>Question 1</h2>
+
+        <p>
+            The Python function <code>len()</code> is used to find
+            the length of an object.
+        </p>
+    </section>
+
+
+    <!-- ==================== QUESTION 2 ==================== -->
+    <section>
+        <h2>Question 2</h2>
+
+<pre>
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
+</pre>
+
+    </section>
+
+
+    <!-- ==================== QUESTION 3 ==================== -->
+    <section>
+        <h2>Question 3</h2>
+
+        <p>
+            Press <kbd>Ctrl + C</kbd> to copy the selected text.
+        </p>
+    </section>
+
+
+    <!-- ==================== QUESTION 4 ==================== -->
+    <section>
+        <h2>Question 4</h2>
+
+        <p>
+            The program displays the output
+            <samp>Hello, World!</samp> on the screen.
+        </p>
+    </section>
+
+
+    <!-- ==================== QUESTION 5 ==================== -->
+    <section>
+        <h2>Question 5</h2>
+
+        <p>
+            In the formula F = ma, the variable
+            <var>m</var> represents mass.
+        </p>
+    </section>
+
+
+    <!-- ==================== QUESTION 6 ==================== -->
+    <section>
+        <h2>Question 6</h2>
+
+<pre>
+for i in range(5):
+    print(i)
+</pre>
+
+    </section>
+
+
+    <!-- ==================== QUESTION 7 ==================== -->
+    <section>
+        <h2>Question 7</h2>
+
+        <p>
+            The CSS property <code>color: red;</code>
+            changes the text color to red.
+        </p>
+
+<pre>
+git init
+git add .
+git commit -m "Initial commit"
+git push origin main
+</pre>
+
+    </section>
+
+
+    <!-- ==================== QUESTION 8 ==================== -->
+    <section>
+        <h2>Question 8</h2>
+
+        <p>
+            Type the command <kbd>pwd</kbd> in the terminal
+            to display the current directory:
+            <samp>/home/user/project</samp>
+        </p>
+    </section>
+
+
+    <!-- ==================== QUESTION 9 ==================== -->
+    <section>
+        <h2>Question 9</h2>
+
+        <p>
+            Press <kbd>Enter</kbd> to submit the form.
+        </p>
+    </section>
+
+
+    <!-- ==================== QUESTION 10 ==================== -->
+    <section>
+        <h2>Question 10</h2>
+
+        <p>
+            Use <code>test -f filename</code>
+            to check whether a file exists.
+        </p>
+    </section>
+
+
+    <!-- ==================== QUESTION 11 ==================== -->
+    <section>
+        <h2>Question 11</h2>
+
+<pre>
++---------+
+|         |
+|  Hello  |
+|         |
++---------+
+</pre>
+
+    </section>
+
+
+    <!-- ==================== QUESTION 12 ==================== -->
+    <section>
+        <h2>Question 12</h2>
+
+        <p>
+            The variable <var>count</var> is assigned
+            the value <code>count = 10</code>.
+        </p>
+    </section>
+
+
+    <!-- ==================== QUESTION 13 ==================== -->
+    <section>
+        <h2>Question 13</h2>
+
+        <p>
+            The CSS property <code>font-size</code>
+            controls the size of text.
+        </p>
+
+        <p>
+            Press <kbd>Ctrl + S</kbd> to save your work.
+        </p>
+
+        <p>
+            The program output is <samp>Success!</samp>.
+        </p>
+    </section>
+
+
+    <!-- ==================== QUESTION 14 ==================== -->
+    <section>
+        <h2>Question 14</h2>
+
+        <h3>Keyboard Input</h3>
+
+        <p>
+            Press <kbd>Ctrl + S</kbd> to save the file.
+        </p>
+
+        <h3>Code Example</h3>
+
+<pre>
+def greet():
+    print("Hello, Student!")
+
+greet()
+</pre>
+
+    </section>
+
+
+    <!-- ==================== QUESTION 15 ==================== -->
+    <section>
+        <h2>Question 15</h2>
+
+        <h3>Inline Code</h3>
+
+        <p>
+            The CSS property <code>font-size</code>
+            is used to change the size of text.
+        </p>
+
+        <h3>Multi-line Code</h3>
+
+<pre>
+def add(a, b):
+    return a + b
+
+result = add(10, 20)
+print(result)
+</pre>
+
+        <h3>Keyboard Shortcut</h3>
+
+        <p>
+            Press <kbd>Ctrl + S</kbd> to save your file.
+        </p>
+
+        <h3>Sample Output</h3>
+
+        <p>
+            The program displays:
+            <samp>30</samp>
+        </p>
+
+        <h3>Variable</h3>
+
+        <p>
+            In the equation
+            <var>x</var> + 10 = 20,
+            the variable <var>x</var> represents a number.
+        </p>
+
+    </section>
+
+
+</body>
+</html>
